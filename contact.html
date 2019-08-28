@@ -5,32 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <ul>
-                <li><a href="./index.html">home</a></li>
-                <li><a href="./courses.html">courses</a></li>
-                <li><a href="./contact.html">contact</a></li>
+        <img src="./res/logo.png" width="120" height="115">
+        <ul class="point">
+            <li><a class="hcc"href="./index.html">home</a></li>
+            <li><a class="hcc"href="./courses.html">courses</a></li>
+            <li><a class="hcc"href="./contact.html">contact</a></li>
         </ul>
     </header>
     <main>
-        <h1>contact</h1>
+        <div class="contact">
+            <h1>contact</h1>
+        </div><br>
         <form>
-                <label>name:</label>
+                <label class="label">name:</label><br>
                 <input type="text"placeholder="your name"><br>
-                <label>track</label>
+                <label class="label">track</label><br>
                 <select>
                     <option>home</option>
                     <option>courses</option>
                     <option>contact</option>
                 </select><br>
-                <label>email adress:</label>
+                <label class="label">email adress:</label><br>
                 <input type="text"placeholder="your email adresse"><br>
-                <label>phone number:</label>
+                <label class="label">phone number:</label><br>
                 <input type="number"placeholder="your phone number"><br>
-        </form>
-        <button>submit</button>
+        </form><br>
+        <button class="button">submit</button>
+        
     </main>
 </body>
 </html>
